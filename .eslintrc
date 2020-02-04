@@ -1,0 +1,7 @@
+/* 直接继承eslint-config-airbnb的配置规则，同时也可以写入自己的特定规则*/
+{
+  "extends": "standard",
+  "rules":{
+    "comma-dangle": ["error", "never"]
+  }
+}
